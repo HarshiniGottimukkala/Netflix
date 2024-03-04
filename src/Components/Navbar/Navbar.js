@@ -9,7 +9,7 @@ const Navbar = ({to, pagename}) => {
         <>
             <nav>
                 <div className="logo">
-                    <img src={netflix} alt="" />
+                <Link to={to}><img src={netflix} alt="" /></Link>
                 </div>
                 <div className="signin">
                 <Link to={to}><button>{pagename}</button></Link>
